@@ -1,11 +1,14 @@
 {
   "name": "afik-consts",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Afik",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "alondon17",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.2.4"
+  }
 }
