@@ -9,4 +9,3 @@ const scores = {
     10: '10',
 }
 export default scores
-console.log('succc');
