@@ -1,3 +1,11 @@
+// interface IProfessions {
+//     [name: string]: {
+//         stages: {
+//             [name: string]: string
+//         },
+//         name:string
+//     }
+// }
 const professions = {
     toi: {
         stages: {
@@ -7,7 +15,7 @@ const professions = {
             mitkademTovala: 'מתקדם תובלה',
             mitkademNatum: 'מתקדם נתו"מ',
         },
-        name: 'מגמת תו"י'
+        name: 'מגמת תו"י',
     },
     krav: {
         stages: {
