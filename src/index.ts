@@ -5,7 +5,8 @@ import odds from './data/odds'
 import professions from './data/professions'
 import scores from './data/scores'
 import lessonTypes from './data/lessonTypes'
-export={ qualityCategories,odds,professions,scores,lessonTypes}
+import drillNames from './data/drillNames'
+export={ qualityCategories,odds,professions,scores,lessonTypes,drillNames}
 // export {default as scores} from './data/scores'
 // export {default as professions} from './data/professions'
 // export {default as qualityCategories} from './data/qualityCategories'
