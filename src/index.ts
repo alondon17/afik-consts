@@ -6,6 +6,7 @@ export {default as  professions} from './data/professions'
 export {default as  scores} from './data/scores'
 export {default as  lessonTypes} from './data/lessonTypes'
 export {default as  drillNames} from './data/drillNames'
+export {staffTypes} from './data/staffTypes'
 // export default{ qualityCategories,odds,professions,scores,lessonTypes,drillNames}
 // export {default as scores} from './data/scores'
 // export {default as professions} from './data/professions'
