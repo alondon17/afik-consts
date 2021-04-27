@@ -1,5 +1,5 @@
-export enum staffTypes{
-    tutor="מדריך",
-    headTutor="מדריך ראשי",
-    commander="מפקד"
+export enum STAFF_TYPES{
+    TUTOR="מדריך",
+    HEAD_TUTOR="מדריך ראשי",
+    COMMANDER="מפקד"
 }

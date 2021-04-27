@@ -1,14 +1,14 @@
 // import qualityCategories from "./data/qualityCategories";
 
-export {default as qualityCategories} from './data/qualityCategories'
-export {default as  odds} from './data/odds'
-export {default as  professions} from './data/professions'
-export {default as  scores} from './data/scores'
-export {default as  lessonTypes} from './data/lessonTypes'
-export {default as  drillNames} from './data/drillNames'
-export {staffTypes} from './data/staffTypes'
-export {studentStatuses} from './data/studentStatuses'
-export {staffStatuses} from './data/staffStatuses'
+export { QUALITY_CATEGORIES} from './data/qualityCategories'
+export {ODDS} from './data/odds'
+export {PROFESSIONS} from './data/professions'
+export {SCORES} from './data/scores'
+export {LESSON_TYPES} from './data/lessonTypes'
+export {DRILL_NAMES} from './data/drillNames'
+export {STAFF_TYPES} from './data/staffTypes'
+export {STUDENT_STATUSES} from './data/studentStatuses'
+export {STAFF_STATUSES} from './data/staffStatuses'
 // export default{ qualityCategories,odds,professions,scores,lessonTypes,drillNames}
 // export {default as scores} from './data/scores'
 // export {default as professions} from './data/professions'

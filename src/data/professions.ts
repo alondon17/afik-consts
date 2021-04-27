@@ -6,43 +6,43 @@
 //         name:string
 //     }
 // }
-const professions = {
-    toi: {
-        stages: {
-            mechin: 'מכין',
-            basic: 'בסיסי',
-            rishoniNatum: 'ראשוני נתו"מ',
-            mitkademTovala: 'מתקדם תובלה',
-            mitkademNatum: 'מתקדם נתו"מ',
+export const PROFESSIONS = Object.freeze({
+    TOI: {
+        STAGES: {
+            MECHIN: 'מכין',
+            BASIC: 'בסיסי',
+            RISHONI_NATUM: 'ראשוני נתו"מ',
+            MITKADEM_TOVALA: 'מתקדם תובלה',
+            MITKADEM_NATUM: 'מתקדם נתו"מ',
         },
-        name: 'מגמת תו"י',
+        NAME: 'מגמת תו"י',
     },
-    krav: {
-        stages: {
-            miun: 'מיון',
-            checkKrav: `צ'ק קרב`,
-            checkNavatim: `צ'ק נווטים`,
-            rishoniKrav: 'ראשוני קרב',
-            rishoniNavatim: 'ראשוני נווטים',
-            mitkademKrav: 'מתקדם קרב',
-            mitkademNavatim: 'מתקדם נווטים',
+    KRAV: {
+        STAGES: {
+            MIYUN: 'מיון',
+            CHECK_KRAV: `צ'ק קרב`,
+            CHECK_NAVATIM: `צ'ק נווטים`,
+            RISHONI_KRAV: 'ראשוני קרב',
+            RISHONI_NAVATIM: 'ראשוני נווטים',
+            MITKADEM_KRAV: 'מתקדם קרב',
+            MITKADEM_NAVATIM: 'מתקדם נווטים',
         },
-        name: 'מגמת קרב'
+        NAME: 'מגמת קרב'
     },
-    mesokim: {
-        stages: {
-            checkMesokim: "צ'ק מסוקים",
-            rishoniMesokim: 'ראשוני מסוקים',
-            mitkademMesokim: 'מתקדם מסוקים',
+    MESOKIM: {
+        STAGES: {
+            CHECK_MESOKIM: "צ'ק מסוקים",
+            RISHONI_MESOKIM: 'ראשוני מסוקים',
+            MITKADEM_MESOKIM: 'מתקדם מסוקים',
         },
-        name: 'מגמת מסוקים'
+        NAME: 'מגמת מסוקים'
     },
-    madar: {
-        stages: {
-            mevoot: 'מבואות',
-            masloolim: 'מסלולים',
+    MADAR: {
+         STAGES: {
+            MEVOOT: 'מבואות',
+            MASLOOLIM: 'מסלולים',
         },
-        name: 'מגמת מד"ר'
+        NAME: 'מגמת מד"ר'
     },
-}
-export default professions
+})
+

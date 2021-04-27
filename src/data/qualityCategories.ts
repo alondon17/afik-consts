@@ -1,31 +1,30 @@
-const qualityCategories = {
-    natural: {
-        qualities: {
-            flying: 'הטסה',
-            divisionOfAttention: 'חלוקת קשב',
-            detection: 'זיהוי',
-            solidarity: 'הזדהות',
-            judgement: 'שיפוט',
+export const QUALITY_CATEGORIES = Object.freeze({
+    NATURAL: {
+        QUALITIES: {
+            FLYING: 'הטסה',
+            DIVISION_OF_ATTENTION: 'חלוקת קשב',
+            DETECTION: 'זיהוי',
+            SOLIDARITY: 'הזדהות',
+            JUDGEMENT: 'שיפוט',
         },
-        name: 'טבעיות'
+        NAME: 'טבעיות'
     },
-    mind: {
-        qualities: {
-            thinking: 'מחשבה',
-            creativity: 'יצירתיות',
-            debriefing: 'תחקור',
-            aviraut: 'אויראות',
+    MIND: {
+        QUALITIES: {
+            THINKING: 'מחשבה',
+            CREATIVITY: 'יצירתיות',
+            DEBRIEFING: 'תחקור',
+            AVIRAUT: 'אויראות',
         },
-        name: 'ראש'
+        NAME: 'ראש'
     },
     character: {
-        qualities: {
-            stress: 'לחץ',
-            safety: 'בטיחות',
-            implementation: 'יישום',
-            characterOfFlight: 'אופי טיסה'
+        QUALITIES: {
+            STRESS: 'לחץ',
+            SAFETY: 'בטיחות',
+            IMPLEMENTATION: 'יישום',
+            CHARACTER_OF_FLIGHT: 'אופי טיסה'
         },
-        name: 'אופי'
+        NAME: 'אופי'
     }
-}
-export default qualityCategories
+})

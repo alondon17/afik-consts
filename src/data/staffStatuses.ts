@@ -1,5 +1,5 @@
-export enum staffStatuses {
-    permanence="קבע",
-    reserves="מילואים",
-    civilian="אזרח עובד צהל"
+export enum STAFF_STATUSES {
+    PERMANENCE="קבע",
+    RESERVES="מילואים",
+    CIVILIAN="אזרח עובד צהל"
 }

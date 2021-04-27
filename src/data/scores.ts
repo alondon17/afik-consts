@@ -1,4 +1,4 @@
-const scores = {
+export const SCORES =Object.freeze({
     4: '4',
     5: '5',
     6: '6',
@@ -7,5 +7,4 @@ const scores = {
     8: '8',
     9: '9',
     10: '10',
-}
-export default scores
+})

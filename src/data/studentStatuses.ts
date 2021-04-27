@@ -1,6 +1,6 @@
-export enum studentStatuses{
-    intended="מיועד ל-",
-    active="פעיל",
-    suspended="מושהה",
-    dismissed="מודח"
+export enum STUDENT_STATUSES{
+    INTENDED="מיועד ל-",
+    ACTIVE="פעיל",
+    SUSPENDED="מושהה",
+    DISMISSED="מודח"
 }

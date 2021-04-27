@@ -1,6 +1,5 @@
-enum lessonTypes{
-    aerial='אווירי',
-    ground='קרקעי',
-    simulator='סימולטור',
+export enum LESSON_TYPES{
+    AERIAL='אווירי',
+    GROUND='קרקעי',
+    SIMULATOR='סימולטור',
 }
-export default lessonTypes
