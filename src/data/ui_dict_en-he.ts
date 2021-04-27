@@ -1,0 +1,18 @@
+export enum UI_DICT {
+  NO_STAGES_FOUND = "לא נמצאו שלבים",
+  NO_LESSONS_FOUND = "לא נמצאו מופעים",
+  NO_DRILLS_FOUND = "לא נמצאו תרגילים",
+  COURSES = "קורסים",
+  USERS = "משתמשים",
+  HELLO_GUEST = "שלום אורח",
+  CLOSE = "סגור",
+  SAVE_CHANGES = "שמור שינויים",
+  FIRST_NAME = "שם פרטי",
+  LAST_NAME = "שם משפחה",
+  PERSONAL_NUMBER = "מספר אישי",
+  ROLE = "תפקיד",
+  STAFF = "סגל",
+  STUDENTS = "חניכים",
+  REMOVE = "הסר",
+  NOTHING_WAS_FOUND = "לא נמצא דבר",
+}
