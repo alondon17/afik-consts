@@ -15,4 +15,13 @@ export enum UI_DICT {
   STUDENTS = "חניכים",
   REMOVE = "הסר",
   NOTHING_WAS_FOUND = "לא נמצא דבר",
+  YES = "כן",
+  NO = "לא",
+  ARE_YOU_SURE_YOU_WANT_TO_DELETE = "את/ה בטוח שאת/ה רוצה להסיר את",
+  REMOVE_USER = "הסרת משתמש",
+  CANCEL = "בטל",
+  CREATE = "צור",
+  CREATE_NEW_COURSE = "יצירת קורס חדש",
+  NO_PROFESSION_WAS_CHOSEN = "שום מגמה לא נבחרה",
+  DRILL_LIST= "רשימת תרגילים"
 }
